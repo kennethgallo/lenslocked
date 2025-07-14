@@ -25,25 +25,7 @@ func faqHandler(w http.ResponseWriter, r *http.Request) {
 	</ul>
 	
 	`)
-	// fmt.Fprint(w, "<h2>Is there a free version?</h2>")
-	// fmt.Fprint(w, "<p>Yes! We offer a 30 day trial on any paid plans</p>")
-	// fmt.Fprint(w, "<h2>What are your support hours</h2>")
-	// fmt.Fprint(w, "<p>We have support staff answering emails 24/7, though reponse times may vary</p>")
-	// fmt.Fprint(w, "<h2>How do I contact support</h2>")
-	// fmt.Fprint(w, "<p>Email us - kennygthedev@gmail.com</p>")
-
 }
-
-// func pathHandler(w http.ResponseWriter, r *http.Request) {
-// 	switch r.URL.Path {
-// 	case "/":
-// 		homeHandler(w, r)
-// 	case "/contact":
-// 		contactHandler(w, r)
-// 	default:
-// 		http.Error(w, "Page not found", http.StatusNotFound)
-// 	}
-// }
 
 type Router struct{}
 
